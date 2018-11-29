@@ -1,8 +1,10 @@
-package com.comp4382.ass3.assignment3.models;
+package com.comp4382.ass3.assignment3.exchange;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Exchange {
 	@JsonProperty(value = "from")
 	private String from;

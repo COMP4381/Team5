@@ -1,8 +1,10 @@
-package com.comp4382.ass3.assignment3.models;
+package com.comp4382.ass3.assignment3.user;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class User {
     @JsonProperty(value = "username", defaultValue = "no name", required = true)
     private String username;

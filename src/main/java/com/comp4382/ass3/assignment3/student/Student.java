@@ -1,17 +1,19 @@
-package com.comp4382.ass3.assignment3.models;
+package com.comp4382.ass3.assignment3.student;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Student{
-	
-	@JsonProperty(value="number")
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Student {
+
+	@JsonProperty(value = "number")
 	private String number;
-	@JsonProperty(value="fullname")
+	@JsonProperty(value = "fullname")
 	private String Fullname;
-	@JsonProperty(value="phone")
+	@JsonProperty(value = "phone")
 	private String phone;
-	
+
 	@JsonCreator
 	public Student(String number, String fullname, String phone) {
 		super();
@@ -19,7 +21,5 @@ public class Student{
 		Fullname = fullname;
 		this.phone = phone;
 	}
-	
-	
-	
+
 }

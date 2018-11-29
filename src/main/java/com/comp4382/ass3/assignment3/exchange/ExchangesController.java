@@ -1,4 +1,4 @@
-package com.comp4382.ass3.assignment3.controllers;
+package com.comp4382.ass3.assignment3.exchange;
 
 import java.util.ArrayList;
 
@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.comp4382.ass3.assignment3.models.Exchange;
+// import com.comp4382.ass3.assignment3.models.Exchange;
 
 @RestController
 public class ExchangesController {
 
 	@GetMapping("/exchanges")
 	public ArrayList<Exchange> getAllExchanges(@RequestParam(value = "university", required = false) String university,
-			@RequestParam(value="year",required=false) String year) {
+			@RequestParam(value = "year", required = false) String year) {
 		ArrayList<Exchange> exchanges = new ArrayList<Exchange>();
 		return exchanges;
 	}

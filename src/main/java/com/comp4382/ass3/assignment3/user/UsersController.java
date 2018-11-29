@@ -1,4 +1,4 @@
-package com.comp4382.ass3.assignment3.controllers;
+package com.comp4382.ass3.assignment3.user;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.comp4382.ass3.assignment3.models.User;
+// import com.comp4382.ass3.assignment3.models.User;
 
 @RestController
 public class UsersController {
