@@ -29,10 +29,10 @@ public class UniversityController {
 
 	@GetMapping("/{id}")
 	public University getUniversityById(@PathVariable Integer id) {
-		if (id != null)
-			return new University("name1", "city1");
-		else
-			return null;
+		// if (id != null)
+		// return new University("name1", "city1");
+		// else
+		return null;
 	}
 
 	@PostMapping("/")

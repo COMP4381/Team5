@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 // import com.comp4382.ass3.assignment3.models.User;
 
 @RestController
-public class UsersController {
+public class UserController {
 
 	@GetMapping("/users")
 	public ArrayList<User> getAllUsers() {
