@@ -1,23 +1,43 @@
 package com.comp4382.ass3.assignment3.user;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+@Entity
+@Table(name = "users")
 public class User {
-    @JsonProperty(value = "username", defaultValue = "no name", required = true)
+    @Id
+    @GeneratedValue
+    @Column(name = "id")
+    private Integer id;
+
+    @Column(name = "username")
     private String username;
-    @JsonProperty(value = "password", defaultValue = "no password", required = true)
+
+    @Column(name = "password")
     private String password;
-    @JsonProperty(value = "email", defaultValue = "no email", required = true)
+
+    @Column(name = "email")
     private String email;
 
-    @JsonCreator
-    public User(String username, String password, String email) {
-        this.username = username;
-        this.password = password;
-        this.email = email;
+    @Column(name = "deleted")
+    private boolean deleted = false;
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the id
+     */
+    public Integer getId() {
+        return id;
     }
 
     /**
@@ -60,6 +80,20 @@ public class User {
      */
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    /**
+     * @return the deleted
+     */
+    public boolean isDeleted() {
+        return deleted;
+    }
+
+    /**
+     * @param deleted the deleted to set
+     */
+    public void setDeleted(boolean deleted) {
+        this.deleted = deleted;
     }
 
 }

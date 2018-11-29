@@ -1,31 +1,117 @@
 package com.comp4382.ass3.assignment3.exchange;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+@Entity
+@Table(name = "exchanges")
 public class Exchange {
-	@JsonProperty(value = "from")
+
+	@Id
+	@GeneratedValue
+	@Column(name = "id")
+	private Integer id;
+
+	@Column(name = "from")
 	private String from;
-	@JsonProperty(value = "to")
+
+	@Column(name = "to")
 	private String to;
-	@JsonProperty(value = "semesters")
+
+	@Column(name = "semesters")
 	private int semesters;
-	@JsonProperty(value = "year")
+
+	@Column(name = "year")
 	private String year;
 
-	@JsonCreator
-	public Exchange(String from, String to, int semesters, String year) {
-		super();
-		this.from = from;
-		this.to = to;
-		this.semesters = semesters;
-		this.year = year;
+	@Column(name = "deleted")
+	private boolean deleted = false;
+
+	/**
+	 * @return the id
+	 */
+	public Integer getId() {
+		return id;
 	}
 
-	public Exchange() {
-		// TODO Auto-generated constructor stub
+	/**
+	 * @return the from
+	 */
+	public String getFrom() {
+		return from;
+	}
+
+	/**
+	 * @return the semesters
+	 */
+	public int getSemesters() {
+		return semesters;
+	}
+
+	/**
+	 * @return the to
+	 */
+	public String getTo() {
+		return to;
+	}
+
+	/**
+	 * @return the year
+	 */
+	public String getYear() {
+		return year;
+	}
+
+	/**
+	 * @return the deleted
+	 */
+	public boolean isDeleted() {
+		return deleted;
+	}
+
+	/**
+	 * @param deleted the deleted to set
+	 */
+	public void setDeleted(boolean deleted) {
+		this.deleted = deleted;
+	}
+
+	/**
+	 * @param from the from to set
+	 */
+	public void setFrom(String from) {
+		this.from = from;
+	}
+
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	/**
+	 * @param semesters the semesters to set
+	 */
+	public void setSemesters(int semesters) {
+		this.semesters = semesters;
+	}
+
+	/**
+	 * @param to the to to set
+	 */
+	public void setTo(String to) {
+		this.to = to;
+	}
+
+	/**
+	 * @param year the year to set
+	 */
+	public void setYear(String year) {
+		this.year = year;
 	}
 
 }
