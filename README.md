@@ -1,5 +1,9 @@
 # Team5
 
+## Resources
+
+<a href="https://spring.io/guides/gs/accessing-data-mysql/">Accessing data with MySQL</a>
+
 ## Palestinian universities student exchange and cross courses
 
 This service provides to a whole new system for palestinian students, to locally exchange, and take cross courses from local universities in Palestine.
@@ -19,18 +23,20 @@ Accounts for this service can be connected with LinkedIn, this would help the un
 ### Business Process Model Notation
 
 #### Cross Course
+
 <img src="assets/bpmn-cross-course.png" title="soa"/>
 
 #### Exchange Student
+
 <img src="assets/bpmn-exchange-student.png" title="soa"/>
-
-
 
 ---
 
 ## Contributors
- - Abed Al Rahman Murrar - 1140155
- - Haron Taha - 114****
 
- ---
+- Abed Al Rahman Murrar - 1140155
+- Haron Taha - 114\*\*\*\*
+
+---
+
 If you want to contribute to this project/service please <a href="mailto:1140155@student.birzeit.edu">email us</a>.
