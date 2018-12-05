@@ -23,10 +23,10 @@ public class UserController {
 
 	@GetMapping("/users/{id}")
 	public User getUserById(@PathVariable Integer id) {
-		if (id != null)
-			return new User("username1", "password1", "example@example.com");
-		else
-			return null;
+		// if (id != null)
+		// return new User("username1", "password1", "example@example.com");
+		// else
+		return null;
 	}
 
 	@PostMapping("/users")

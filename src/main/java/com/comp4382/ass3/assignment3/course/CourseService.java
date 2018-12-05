@@ -12,21 +12,37 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class CourseService {
-    private static final Logger logger = Logger.getLogger("ArticleService");
+    private static final Logger logger = Logger.getLogger("Course Service");
     @Autowired
-    CourseRepository courseRepository;
+    private CourseRepository courseRepository;
 
     public Page<Course> getCourses(Pageable page) {
         logger.info("get Courses");
         return courseRepository.findAll(page);
     }
 
-    public Course getById(Integer id) {
+    // public Page<Course> searchCoursesByCode(Pageable page, String code){
+    // return courseRepository.getCoursesByCode(page, code)
+    // }
+
+    // public Page<Course> getCoursesByUniversityName(Pageable page,String
+    // universityName){
+    // return courseRepository.getCoursesByUniversityName(page,universityName)
+    // }
+
+    public Course getCourseById(Integer id) {
+        logger.info("get Course By Id");
         return courseRepository.getOne(id);
     }
 
     public Course save(Course course) {
+        logger.info("Save Course");
         return courseRepository.save(course);
+    }
+
+    public void delete(Course course) {
+        logger.info("Delete course");
+        courseRepository.delete(course);
     }
 
 }
