@@ -17,6 +17,9 @@ Accounts for this service can be connected with LinkedIn, this would help the un
 ### Service Oriented Architecture Diagram
 
 <img src="assets/soa-diagram.png" title="soa"/>
+ abut soa   Our services are shared by all files between the data base and our universities
+ So that if the person registered in one party only can access this file that the person in the registration of existing 
+ universities by means of which you have to link these universities
 
 ---
 
@@ -24,11 +27,19 @@ Accounts for this service can be connected with LinkedIn, this would help the un
 
 #### Cross Course
 
-<img src="assets/bpmn-cross-course.png" title="soa"/>
+<img src="assets/bpmn-cross-course.png" title="bpmn2.0"/>
 
 #### Exchange Student
 
-<img src="assets/bpmn-exchange-student.png" title="soa"/>
+<img src="assets/bpmn-exchange-student.png" title="bpmn 2.0"/>
+the composite service talks twith the atomic services by LinkedIn and database and the service we built it,
+We used the tracking process where we tracked the file from the registration by the person on arrival at all universities 
+or the course registration and arrival to all concerned parties and all universities,
+As for the parallel, it can be used in the process of mobile navigation to and from universities, 
+it is transferred to all at the same time
+We also used the conditions at each stage of the drawing in and during 
+the programming so that the conditions affect the course of the process
+All of this is shown in the diagram.
 
 ---
 ##Implementation Details
@@ -42,4 +53,5 @@ We impelemented our services using the RESTful service development paradigm. Whi
  we use frameworks and libraries wagger 2.0, spring boot ,postman
  we use deployment platforms (PaaS)
  we use application server Tomcat
+ 
 ## Contributors
