@@ -17,7 +17,7 @@ Accounts for this service can be connected with LinkedIn, this would help the un
 ### Service Oriented Architecture Diagram
 
 <img src="assets/soa-diagram.png" title="soa"/>
- abut soa   Our services are shared by all files between the data base and our universities
+ abut SOA  Our services are shared by all files between the data base and our universities
  So that if the person registered in one party only can access this file that the person in the registration of existing 
  universities by means of which you have to link these universities
 
