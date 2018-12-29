@@ -46,16 +46,16 @@ All of this is shown in the diagram.
 We impelemented our services using the RESTful service development paradigm. Which is based on the HTTP protocol which is an RPC-based synchronous communication protocol.
 
 ###Composite Service Algorithm According to BPMN 2.0
-https://github.com/COMP4381/Team5/blob/master/mm.jpg
-https://github.com/COMP4381/Team5/blob/master/m1.jpg
-https://github.com/COMP4381/Team5/blob/master/m2.jpg
-https://github.com/COMP4381/Team5/blob/master/m3.jpg
-https://github.com/COMP4381/Team5/blob/master/m4.jpg
-https://github.com/COMP4381/Team5/blob/master/m5.jpg
-https://github.com/COMP4381/Team5/blob/master/m6.jpg
-https://github.com/COMP4381/Team5/blob/master/m7.jpg
-https://github.com/COMP4381/Team5/blob/master/m8.jpg
-https://github.com/COMP4381/Team5/blob/master/m9.jpg
+<a href="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m1.jpg></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m2.jpg></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m3.jpg></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m4.jpg></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m5.jpg></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m6.jpg></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m7.jpg></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m8.jpg></a>
+<a href="https://github.com/COMP4381/Team5/blob/master/m9.jpg></a>
 https://github.com/COMP4381/Team5/blob/master/mm.jpg
 https://github.com/COMP4381/Team5/blob/master/mm.jpg
 ####Applied Technologies
