@@ -42,13 +42,13 @@ the programming so that the conditions affect the course of the process
 All of this is shown in the diagram.
 
 ---
-##Implementation Details
+## Implementation Details
 We impelemented our services using the RESTful service development paradigm. Which is based on the HTTP protocol which is an RPC-based synchronous communication protocol.
 
-###Composite Service Algorithm According to BPMN 2.0
+## Composite Service Algorithm According to BPMN 2.0
 <a href="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></a>
 <a href="https://github.com/COMP4381/Team5/blob/master/m1.jpg></a>
-<a href="https://github.com/COMP4381/Team5/blob/master/m2.jpg></a>
+
 <a href="https://github.com/COMP4381/Team5/blob/master/m3.jpg></a>
 <a href="https://github.com/COMP4381/Team5/blob/master/m4.jpg></a>
 <a href="https://github.com/COMP4381/Team5/blob/master/m5.jpg></a>
@@ -56,9 +56,8 @@ We impelemented our services using the RESTful service development paradigm. Whi
 <a href="https://github.com/COMP4381/Team5/blob/master/m7.jpg></a>
 <a href="https://github.com/COMP4381/Team5/blob/master/m8.jpg></a>
 <a href="https://github.com/COMP4381/Team5/blob/master/m9.jpg></a>
-https://github.com/COMP4381/Team5/blob/master/mm.jpg
-https://github.com/COMP4381/Team5/blob/master/mm.jpg
-####Applied Technologies
+
+## Applied Technologies
  we use development environment visual studio code , eclipse, advanced rest client, google chrome
  we use  java programming languages
  we use frameworks and libraries wagger 2.0, spring boot ,postman
