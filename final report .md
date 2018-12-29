@@ -7,7 +7,7 @@
 
 ## Palestinian universities student exchange and cross courses
 
-This service provides to a whole new system for palestinian students, to locally exchange, and take cross courses from local universities in Palestine.
+This service provides to a whole new system for palestinian students, to locally exchange, and take cross courses from local universities in Palestine.   
  This service needs is still in progress, but it may need a lot of previliges, in order to run successfully, we need access to universities' databases of students, their marks, and their finished courses. The ministry of high studies acceptance is a high priority for this to operate.
 
 Accounts for this service can be connected with LinkedIn, this would help the university when checking for the student applying for its cross-course or exchange, to see his/her background in job, school, acheivments, etc...
@@ -47,21 +47,22 @@ We impelemented our services using the RESTful service development paradigm. Whi
 
 ## Composite Service Algorithm According to BPMN 2.0
 <img src="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m1.jpg></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m2.jpg></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m3.jpg></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m4.jpg></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m5.jpg></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m6.jpg></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m7.jpg></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m8.jpg></img>
-<img src="https://github.com/COMP4381/Team5/blob/master/m9.jpg></img>
+
+<img src="https://github.com/COMP4381/Team5/blob/master/m1.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m2.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m3.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m4.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m5.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m6.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m7.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m8.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m9.jpg"></img>
 
 ## Applied Technologies
  we use development environment visual studio code , eclipse, advanced rest client, google chrome
  we use  java programming languages
  we use frameworks and libraries wagger 2.0, spring boot ,postman
  we use deployment platforms (PaaS)
- we use application server Tomcat .  
+ we use application server Tomcat   .  
  
 ## Contributors
