@@ -46,22 +46,22 @@ All of this is shown in the diagram.
 We impelemented our services using the RESTful service development paradigm. Which is based on the HTTP protocol which is an RPC-based synchronous communication protocol.
 
 ## Composite Service Algorithm According to BPMN 2.0
-<img href="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m1.jpg></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m2.jpg></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m3.jpg></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m4.jpg></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m5.jpg></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m6.jpg></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m7.jpg></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m8.jpg></img>
-<img href="https://github.com/COMP4381/Team5/blob/master/m9.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m1.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m2.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m3.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m4.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m5.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m6.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m7.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m8.jpg></img>
+<img src="https://github.com/COMP4381/Team5/blob/master/m9.jpg></img>
 
 ## Applied Technologies
  we use development environment visual studio code , eclipse, advanced rest client, google chrome
  we use  java programming languages
  we use frameworks and libraries wagger 2.0, spring boot ,postman
  we use deployment platforms (PaaS)
- we use application server Tomcat
+ we use application server Tomcat .  
  
 ## Contributors
