@@ -114,10 +114,15 @@ UserControllerApi
 
  ## Documentation for Models
 UserModelClass
+
 ExchangeClass
+
 UnivresityModelClass
+
 courseodelClass
+
 studentClass
+
 ## Documentation for Authorization
 All endpoints do not require authorization. Authentication schemes defined for the API:
 
