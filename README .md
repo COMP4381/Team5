@@ -85,8 +85,8 @@ public class ExchangesController {
  we use deployment platforms (PaaS)
  we use application server Tomcat   .
  ## Conclusion and Discussion
-TODO: In this section, you need to include all challenges that faced you in this project, including: Technical difficulties, timing constraints, dealing with third parties and the need for hard coding, etc.
 In conclosin, our api main idea is when the student make a regesteration in any university and he decide to change to another university then his document are available in other university and he can exchange the courses by the same way  
+in our api we faced major problem in the api which is there is no a ready api for the universities in palestine cause of that we cant build an api because there is no databases to work in,for security reasons the universities will not give access on their data.
  # APPENDIX
  ## Documentation for API Endpoints
  All URIs are relative to https://localhost:8080
