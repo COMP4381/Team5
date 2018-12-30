@@ -112,5 +112,15 @@ UserControllerApi
 
 <img src="https://github.com/COMP4381/Team5/blob/master/m7.jpg"></img>
 
- 
+ ## Documentation for Models
+UserModelClass
+ExchangeClass
+UnivresityModelClass
+courseodelClass
+studentClass
+## Documentation for Authorization
+All endpoints do not require authorization. Authentication schemes defined for the API:
+
+## Author
+
 ## Contributors
