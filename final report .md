@@ -96,8 +96,11 @@ All URIs are relative to https://localhost:8080
 ## Atomic Controllers
 UserControllerApi
 <img src="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></img>
+
 <img src="https://github.com/COMP4381/Team5/blob/master/m1.jpg"></img>
+
 <img src="https://github.com/COMP4381/Team5/blob/master/m2.jpg"></img>
+
 <img src="https://github.com/COMP4381/Team5/blob/master/m3.jpg"></img>
 <img src="https://github.com/COMP4381/Team5/blob/master/m4.jpg"></img>
 <img src="https://github.com/COMP4381/Team5/blob/master/m5.jpg"></img>
