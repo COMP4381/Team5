@@ -80,8 +80,22 @@ public class ExchangesController {
 		//
 	}
 '''
-<img src="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></img>
 
+
+## Applied Technologies
+ we use development environment visual studio code , eclipse, advanced rest client, google chrome
+ we use  java programming languages
+ we use frameworks and libraries wagger 2.0, spring boot ,postman
+ we use deployment platforms (PaaS)
+ we use application server Tomcat   .  
+ # APPENDIX
+ ## Documentation for API Endpoints
+ All URIs are relative to https://localhost:8080
+## CompositeServiceControllerApi
+All URIs are relative to https://localhost:8080
+## Atomic Controllers
+UserControllerApi
+<img src="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></img>
 <img src="https://github.com/COMP4381/Team5/blob/master/m1.jpg"></img>
 <img src="https://github.com/COMP4381/Team5/blob/master/m2.jpg"></img>
 <img src="https://github.com/COMP4381/Team5/blob/master/m3.jpg"></img>
@@ -91,12 +105,5 @@ public class ExchangesController {
 <img src="https://github.com/COMP4381/Team5/blob/master/m7.jpg"></img>
 <img src="https://github.com/COMP4381/Team5/blob/master/m8.jpg"></img>
 <img src="https://github.com/COMP4381/Team5/blob/master/m9.jpg"></img>
-
-## Applied Technologies
- we use development environment visual studio code , eclipse, advanced rest client, google chrome
- we use  java programming languages
- we use frameworks and libraries wagger 2.0, spring boot ,postman
- we use deployment platforms (PaaS)
- we use application server Tomcat   .  
  
 ## Contributors
