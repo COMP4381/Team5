@@ -104,12 +104,13 @@ UserControllerApi
 
 <img src="https://github.com/COMP4381/Team5/blob/master/m4.jpg"></img>
 
+<img src="https://github.com/COMP4381/Team5/blob/master/m9.jpg"></img>
+
+<img src="https://github.com/COMP4381/Team5/blob/master/m1.jpg"></img>
+
 <img src="https://github.com/COMP4381/Team5/blob/master/m8.jpg"></img>
 
 <img src="https://github.com/COMP4381/Team5/blob/master/m7.jpg"></img>
 
-<img src="https://github.com/COMP4381/Team5/blob/master/m9.jpg"></img>
-
-<img src="https://github.com/COMP4381/Team5/blob/master/m1.jpg"></img>
  
 ## Contributors
