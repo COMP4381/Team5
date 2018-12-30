@@ -1,10 +1,6 @@
 
 # Team5
 
-## Resources
-
-<a href="https://spring.io/guides/gs/accessing-data-mysql/">Accessing data with MySQL</a>
-
 ## Palestinian universities student exchange and cross courses
 
 This service provides to a whole new system for palestinian students, to locally exchange, and take cross courses from local universities in Palestine.   
