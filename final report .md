@@ -46,6 +46,40 @@ All of this is shown in the diagram.
 We impelemented our services using the RESTful service development paradigm. Which is based on the HTTP protocol which is an RPC-based synchronous communication protocol.
 
 ## Composite Service Algorithm According to BPMN 2.0
+'''java
+@RestController
+public class ExchangesController {
+
+	@GetMapping("/exchanges")
+	public ArrayList<Exchange> getAllExchanges(@RequestParam(value = "university", required = false) String university,
+			@RequestParam(value = "year", required = false) String year) {
+		ArrayList<Exchange> exchanges = new ArrayList<Exchange>();
+		return exchanges;
+	}
+
+	@GetMapping("/exchanges/{id}")
+	public Exchange getUserById(@PathVariable Integer id) {
+		if (id != null)
+			return new Exchange();
+		else
+			return null;
+	}
+
+	@PostMapping("/exchanges")
+	public void addNewExchange(@RequestBody Exchange exchange) {
+		//
+	}
+
+	@PutMapping("/exchanges/{id}")
+	public void editExchange(@RequestBody Exchange newExchange, @PathVariable int id) {
+		//
+	}
+
+	@DeleteMapping("exchanges/{id}")
+	public void deleteExchange(@PathVariable int id) {
+		//
+	}
+'''
 <img src="https://github.com/COMP4381/Team5/blob/master/mm.jpg"></img>
 
 <img src="https://github.com/COMP4381/Team5/blob/master/m1.jpg"></img>
