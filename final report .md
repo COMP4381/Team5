@@ -125,3 +125,5 @@ All endpoints do not require authorization. Authentication schemes defined for t
 ## Author
 harontaha1997@gmail.com
 ## Contributors
+Abed Al Rahman Murrar - 1140155
+Haron Taha - 1142274
