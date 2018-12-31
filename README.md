@@ -125,9 +125,6 @@ studentClass
 ## Documentation for Authorization
 All endpoints do not require authorization. Authentication schemes defined for the API:
 
-## Author
-harontaha1997@gmail.com
 ## Contributors
 Abed Al Rahman Murrar - 1140155
-
 Haron Taha - 1142274
