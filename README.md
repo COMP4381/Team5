@@ -92,6 +92,9 @@ in our api we faced major problem in the api which is there is no a ready api fo
  All URIs are relative to https://localhost:8080
 ## CompositeServiceControllerApi
 All URIs are relative to https://localhost:8080
+
+---
+
 ## Atomic Controllers
 UserControllerApi
 
